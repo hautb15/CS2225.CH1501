@@ -31,6 +31,24 @@ Nhóm mong muốn thực hiện nhận diện và chuyển thành giọng nói t
 **Hình ảnh bộ dataset:**
 ![Alt text](/image-material/cifar-10-dataset.jpg "CIFAR-10")
 
+# Các bước thực hiện:
+1. Thu thập dữ liệu
+
+2. Import các libraries cần thiết
+
+3. Chuẩn hóa và xử lý dữ liệu
+
+4. Cấu hình, tạo model, tối ưu model
+
+5. Train model, Retrain model
+
+6. Đánh giá, đo lường các thông số Precision, Recall, F1 Score hoặc MAP
+
+7. Tạo dictionary để ánh xạ kết quả đầu ra tương ứng với mô hình
+
+8. Kiểm thử model từ dữ liệu bên ngoài
+
+9. Cải tiến model và các phương pháp xử lý liên tục
 
 
 # Một số thông tin đáng lưu ý trong đồ án:
@@ -60,3 +78,8 @@ Nhóm mong muốn thực hiện nhận diện và chuyển thành giọng nói t
   - TensorFlow
   - CIFAR-10, CIFAR-100
   - CNN, RCNN,..
+
+# Liên hệ:
+hautb.15@grad.uit.edu.vn
+duypt.15@grad.uit.edu.vn
+
