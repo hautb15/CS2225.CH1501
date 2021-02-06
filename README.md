@@ -3,6 +3,7 @@
 ### Thực hiện: Trần Bình Hậu (CH2001004) - Phạm Thái Duy (CH2001003)
 
 # Giới thiệu
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hautb15/CS2225.CH1501/blob/main/run.ipynb)
 
 # Các lần cập nhật
 `2020-02-06:` Cập nhật đồ án lần đầu tiên.
