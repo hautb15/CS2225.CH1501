@@ -33,7 +33,17 @@ Nhóm mong muốn thực hiện nhận diện và chuyển thành giọng nói t
 
 
 
-# Các bước thực hiện
+# Một số thông tin đáng lưu ý trong đồ án:
+**Độ chính xác khi train :** 82.77%
+
+**Độ chính xác khi retrain data với augmentation :** 87.86%
+
+![Alt text](/image-material/loss-function.jpg "Loss Function")
+
+
+![Alt text](/image-material/accuracy.jpg "Accuracy")
+
+![Alt text](/image-material/measure.jpg "Calculate Precision, Recall, F1")
 
 
 # Hạn chế của đề tài
