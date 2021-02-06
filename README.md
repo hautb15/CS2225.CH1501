@@ -1,5 +1,5 @@
 # Đồ án môn học CS2225: Nhận dạng thị giác và ứng dụng
-## Nhận diện hình ảnh một số động vật - đồ vật và hiển thị tên tương ứng
+## Tên đồ án: Nhận diện hình ảnh một số động vật - đồ vật và hiển thị tên tương ứng
 ### Thực hiện: Trần Bình Hậu (CH2001004) - Phạm Thái Duy (CH2001003)
 
 # Giới thiệu
@@ -14,7 +14,9 @@ Nhóm mong muốn thực hiện nhận diện và chuyển thành giọng nói t
 
 # Mô tả bài toán
 **Task:** Nhận diện hình ảnh động vật - đồ vật
+
 **Input:** Hình ảnh được đưa vào bằng hình chụp hoặc hình lấy trên google.
+
 **Output:** Tên tương ứng với động vật - đồ vật đó.
 
 **Dataset:** bộ dữ liệu được đánh nhãn của CIFAR-10
