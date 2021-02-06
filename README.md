@@ -28,6 +28,11 @@ Nhóm mong muốn thực hiện nhận diện và chuyển thành giọng nói t
   - Giảm thời gian train, kỳ vọng 30 phút - 45 phút.
   - Tích hợp thêm text - to - speech để tăng mức độ ứng dụng.
 
+**Hình ảnh bộ dataset:**
+![Alt text](/image-material/cifar-10-dataset.jpg "CIFAR-10")
+
+
+
 # Các bước thực hiện
 
 
