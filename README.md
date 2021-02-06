@@ -38,17 +38,25 @@ Nhóm mong muốn thực hiện nhận diện và chuyển thành giọng nói t
 
 **Độ chính xác khi retrain data với augmentation :** 87.86%
 
-![Alt text](/image-material/loss-function.jpg "Loss Function")
+![Alt text](/image-material/loss-function.png "Loss Function")
 
 
-![Alt text](/image-material/accuracy.jpg "Accuracy")
+![Alt text](/image-material/accuracy.png "Accuracy")
 
-![Alt text](/image-material/measure.jpg "Calculate Precision, Recall, F1")
+![Alt text](/image-material/measure.png "Calculate Precision, Recall, F1")
 
 
 # Hạn chế của đề tài
+  - Độ chính xác vẫn chưa đạt 100%.
+  - Chưa thử nghiệm thành công text-to-speech cho tiếng Việt.
 
 # Hướng phát triển tiếp theo
+  - Mở rộng ứng dụng NLP để thực hiện text-to-speech cho tiếng Việt.
+  - Mở rộng phạm vi đối tượng trong model, hỗ trợ trẻ em nhận diện thế giới xung quanh.
+  - Nhận diện đối tượng trong một số ứng dụng khác.
 
 # Tài liệu tham khảo
-
+  - Keras
+  - TensorFlow
+  - CIFAR-10, CIFAR-100
+  - CNN, RCNN,..
