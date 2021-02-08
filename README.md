@@ -5,7 +5,7 @@
 # Giới thiệu
 Đồ án nhằm mục tiêu xây dựng ứng dụng nhận diện thế giới xung quanh và đọc tên đối tượng đó. Do phạm vi đồ án môn học nên chỉ thực hiện 10 loại đối tượng trong bộ dữ liệu CIFAR-10, và đọc thành tiếng Việt tên đối tượng tương ứng.
 
-Đồ án chỉ dừng lại ở mức "Back-end" chứ chưa xây dựng thành phần mềm có giao diện web front-end để mọi người dễ sử dụng.
+Đồ án chỉ dừng lại ở mức "Back-end", chưa có giao diện web để dễ sử dụng.
 
 **File thực thi**
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hautb15/CS2225.CH1501/blob/main/run.ipynb)
@@ -16,26 +16,30 @@
 # Các lần cập nhật
 `2020-02-06:` Cập nhật đồ án lần đầu tiên.
 
+`2020-02-08:` Cập nhật text-to-speech tiếng Anh.
+
 # Khảo sát đề tài
 Bài toán nhận diện hình ảnh đồ vật thuộc bài toán image classification, text regconition. Qua khảo sát tại thời điểm thực hiện đồ án, trên thị trường có rất nhiều giải pháp cho bài toán này, như Picai, DietCameraAI, vivino, plantnet, coinoscope, amazon, snapchat, pinterest, google lens,.. 
 
-Nhóm mong muốn thực hiện nhận diện và chuyển thành giọng nói tiếng Việt.
+Những giải pháp của các hãng lớn khá hoàn chỉnh ở thời điểm hiện tại, tuy nhiên độ chính xác vẫn chưa đạt 100%, vẫn còn một số đối tượng bị nhận diện sai.
+
+Nhóm mong muốn thực hiện nhận diện và chuyển thành giọng nói tiếng Việt, khắc phục những hạn chế của các giải pháp khác, và thực thi được trên môi trường tài nguyên hạn chế.
 
 # Mô tả bài toán
-**Task:** Nhận diện hình ảnh động vật - đồ vật
+**Task:** Nhận diện hình ảnh động vật - đồ vật.
 
 **Input:** Hình ảnh được đưa vào bằng hình chụp hoặc hình lấy trên google.
 
-**Output:** Tên tương ứng với động vật - đồ vật đó.
+**Output:** Tên tương ứng với động vật - đồ vật đó, gọi tên bằng tiếng Anh.
 
-**Dataset:** bộ dữ liệu được đánh nhãn của CIFAR-10
+**Dataset:** bộ dữ liệu được đánh nhãn của CIFAR-10.
 
 **Tình hình bài toán:** việc nhận diện hình ảnh theo bộ dataset CIFAR-10 rất phổ biến, là cơ sở cho nhiều nghiên cứu, ứng dụng trong lĩnh vực Machine Learning. Hạn chế của nó là độ chính xác khá thấp (khoảng 60% - 70%), thời gian train model khá lâu (3 giờ trở lên).
 
 **Công việc nhóm thực hiện:**
-  - Train lại model để nâng cao độ chính xác, kỳ vọng trên 80%.
+  - Train lại model để nâng cao độ chính xác, kỳ vọng trên 85%.
   - Giảm thời gian train, kỳ vọng 30 phút - 45 phút.
-  - Tích hợp thêm text - to - speech để tăng mức độ ứng dụng.
+  - Tích hợp thêm text - to - speech để gọi tên tương ứng đối tượng vừa được nhận diện.
 
 **Hình ảnh bộ dataset:**
 ![Alt text](/image-material/cifar-10-dataset.jpg "CIFAR-10")
@@ -87,6 +91,8 @@ Nhóm mong muốn thực hiện nhận diện và chuyển thành giọng nói t
   - TensorFlow
   - CIFAR-10, CIFAR-100
   - CNN, RCNN,..
+  - Google translator.
+  - FPT AI.
 
 # Liên hệ:
 hautb.15@grad.uit.edu.vn
