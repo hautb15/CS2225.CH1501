@@ -69,7 +69,7 @@ Nhóm mong muốn thực hiện nhận diện và chuyển thành giọng nói t
 
 **Độ chính xác khi retrain model lần 2 với data augmentation :** 87.86%
 
-**Đồ thị và bảng đánh giá loss function với accuracy:**
+**Đồ thị và bảng đánh giá loss function với accuracy, độ đo f1-score, precision, recall:**
 
 ![Alt text](/image-material/loss-function.png "Loss Function")
 
