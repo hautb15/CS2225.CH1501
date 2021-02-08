@@ -65,9 +65,11 @@ Nhóm mong muốn thực hiện nhận diện và chuyển thành giọng nói t
 
 
 # Một số thông tin đáng lưu ý trong đồ án:
-**Độ chính xác khi train :** 82.77%
+**Độ chính xác khi train model lần đầu :** 82.77%
 
-**Độ chính xác khi retrain data với augmentation :** 87.86%
+**Độ chính xác khi retrain model lần 2 với data augmentation :** 87.86%
+
+**Đồ thị và bảng đánh giá loss function với accuracy:**
 
 ![Alt text](/image-material/loss-function.png "Loss Function")
 
