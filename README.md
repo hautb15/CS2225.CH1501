@@ -6,6 +6,7 @@
 Đồ án nhằm mục tiêu xây dựng ứng dụng nhận diện thế giới xung quanh và đọc tên đối tượng đó. Do phạm vi đồ án môn học nên chỉ thực hiện 10 loại đối tượng trong bộ dữ liệu CIFAR-10, và đọc thành tiếng Việt tên đối tượng tương ứng.
 
 Đồ án chỉ dừng lại ở mức "Back-end", chưa có giao diện web để dễ sử dụng.
+Toàn bộ đồ án được thực hiện trên Google Colaboratory, sẽ có sự thay đổi đôi chút nếu đem source chạy trên môi trường khác.
 
 **File thực thi**
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hautb15/CS2225.CH1501/blob/main/run.ipynb)
@@ -63,6 +64,7 @@ Nhóm mong muốn thực hiện nhận diện và chuyển thành giọng nói t
 
 9. Cải tiến model và các phương pháp xử lý liên tục
 
+(chi tiết cài đặt trong file img-class.ipynb)
 
 # Một số thông tin đáng lưu ý trong đồ án:
 **Độ chính xác khi train model lần đầu :** 82.77%
