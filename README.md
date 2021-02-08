@@ -3,7 +3,15 @@
 ### Thực hiện: Trần Bình Hậu (CH2001004) - Phạm Thái Duy (CH2001003)
 
 # Giới thiệu
+Đồ án nhằm mục tiêu xây dựng ứng dụng nhận diện thế giới xung quanh và đọc tên đối tượng đó. Do phạm vi đồ án môn học nên chỉ thực hiện 10 loại đối tượng trong bộ dữ liệu CIFAR-10, và đọc thành tiếng Việt tên đối tượng tương ứng.
+
+Đồ án chỉ dừng lại ở mức "Back-end" chứ chưa xây dựng thành phần mềm có giao diện web front-end để mọi người dễ sử dụng.
+
+**File thực thi**
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hautb15/CS2225.CH1501/blob/main/run.ipynb)
+
+**File cài đặt**
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hautb15/CS2225.CH1501/blob/main/img-class.ipynb)
 
 # Các lần cập nhật
 `2020-02-06:` Cập nhật đồ án lần đầu tiên.
@@ -67,10 +75,10 @@ Nhóm mong muốn thực hiện nhận diện và chuyển thành giọng nói t
 
 # Hạn chế của đề tài
   - Độ chính xác vẫn chưa đạt 100%.
-  - Chưa thử nghiệm thành công text-to-speech cho tiếng Việt.
+  - Chưa thử nghiệm thành công text-to-speech cho tiếng Việt, đã thực hiện thành công text-to-speech cho tiếng Anh.
 
 # Hướng phát triển tiếp theo
-  - Mở rộng ứng dụng NLP để thực hiện text-to-speech cho tiếng Việt.
+  - Mở rộng ứng dụng NLP để thực hiện text-to-speech cho tiếng Việt (dùng fpt.ai để dịch sang).
   - Mở rộng phạm vi đối tượng trong model, hỗ trợ trẻ em nhận diện thế giới xung quanh.
   - Nhận diện đối tượng trong một số ứng dụng khác.
 
